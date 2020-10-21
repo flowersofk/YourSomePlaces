@@ -3,7 +3,7 @@ package com.flowersofk.yoursomeplaces.utils
 object Constants {            
 
     // API 도메인
-    const val BASE_URL: String = "비공개"
+    const val BASE_URL: String = "비공개123"
 
     // 페이징 카운트
     const val PAGE_SIZE: Int = 20
