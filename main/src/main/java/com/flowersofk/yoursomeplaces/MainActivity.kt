@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 /**
  * 메인 ViewPagerActivity
+ * commit test
  */
 class MainActivity : AppCompatActivity() {
 
@@ -24,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         initUI()
         initVM()
 
+        var map = HashMap<String, String>()
+//        var set = map.keySet()
     }
 
     private fun initUI() {
