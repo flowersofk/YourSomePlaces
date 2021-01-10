@@ -18,7 +18,8 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var placeViewModel: PlaceViewModel
 
-    private var test = "test"; // 테스트용 코드
+    private var test = "test";      // 테스트용 코드
+    private var test1 = "test1";    // 이것은 마스터에 커밋할거임
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
