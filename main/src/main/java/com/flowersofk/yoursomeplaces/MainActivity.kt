@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var placeViewModel: PlaceViewModel
 
-    private var test = "test"; // 테스트용 코드
+    private var test = "BranchTest"; // 테스트용 코드
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
