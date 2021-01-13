@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     private var test = "BranchTest"; // 테스트용 코드
     private var test1 = "BranchTest"; // 테스트용 코드
-    private var test2 = "BranchTest"; // 테스트용 
+    private var test2 = "BranchTest"; // 테스트
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
