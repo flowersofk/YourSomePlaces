@@ -2,6 +2,7 @@ package com.flowersofk.yoursomeplaces
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.flowersofk.yoursomeplaces.adapter.ViewPagerAdapter
@@ -48,6 +49,12 @@ class MainActivity : AppCompatActivity() {
     private fun initVM() {
 
         var test = 123 // develop branch
+        
+        test.let{
+            var result = it.plus(3)
+            Log.i("test", "result : " + result)
+        }
+
         ViewModelProvider(this).get(PlaceViewModel::class.java).requestPlaceList()
 
     }
