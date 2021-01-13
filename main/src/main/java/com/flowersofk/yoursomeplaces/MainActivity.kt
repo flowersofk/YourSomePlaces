@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initVM() {
 
+        var test = 123 // develop branch
         ViewModelProvider(this).get(PlaceViewModel::class.java).requestPlaceList()
 
     }
