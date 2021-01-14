@@ -19,9 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var placeViewModel: PlaceViewModel
 
-    private var test = "BranchTest"; // 테스트용 코드
-    private var test1 = "BranchTest"; // 테스트용 코드
-    private var test2 = "BranchTest"; // 테스트
+    private var test = "pull request"; // this line for first pull request
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
