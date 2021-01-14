@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     private var test = "pull request"; // this line for first pull request
     private var main = "이것은 develop에 commit 예정"
+    private var main_2 = "이것은 develop에 commit 예정_2"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
