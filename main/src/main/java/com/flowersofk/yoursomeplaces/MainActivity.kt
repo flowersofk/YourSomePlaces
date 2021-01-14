@@ -20,8 +20,10 @@ class MainActivity : AppCompatActivity() {
     private lateinit var placeViewModel: PlaceViewModel
 
     private var test = "pull request"; // this line for first pull request
+
     private var main = "이것은 develop에 commit 예정"
     private var main_2 = "이것은 develop에 commit 예정_2"
+    private var rebase = "이것은 rebase에서 commit했습니다."
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
