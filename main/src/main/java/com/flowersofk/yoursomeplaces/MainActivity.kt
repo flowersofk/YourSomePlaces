@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
 
     private var clean = "Clean Service feature branch"
     private var login = "login security feature branch"
+    private var ignore = "ingnore test"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
