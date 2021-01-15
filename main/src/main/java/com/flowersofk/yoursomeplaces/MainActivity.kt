@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
     private var rebase = "이것은 rebase에서 commit했습니다."
 
     private var clean = "Clean Service feature branch"
+    private var login = "login security feature branch"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
