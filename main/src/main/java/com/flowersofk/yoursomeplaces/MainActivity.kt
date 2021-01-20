@@ -2,6 +2,7 @@ package com.flowersofk.yoursomeplaces
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.flowersofk.yoursomeplaces.adapter.ViewPagerAdapter
@@ -18,9 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var placeViewModel: PlaceViewModel
 
-    private var test = "BranchTest"; // 테스트용 코드
-    private var test1 = "BranchTest"; // 테스트용 코드
-    private var test2 = "BranchTest"; // 테스트용 코드
+    private var test_2 = "test_2"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,8 +28,6 @@ class MainActivity : AppCompatActivity() {
         initUI()
         initVM()
 
-        var map = HashMap<String, String>()
-//        var set = map.keySet()
     }
 
     private fun initUI() {
@@ -61,6 +58,5 @@ class MainActivity : AppCompatActivity() {
             fragment.onActivityResult(requestCode, resultCode, data)
         }
     }
-
 
 }
