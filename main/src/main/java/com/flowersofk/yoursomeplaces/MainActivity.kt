@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
     private var login = "login security feature branch"
     private var ignore = "ingnore test"
 
+    private var rebase_test_1 = "rebase_test_1"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
