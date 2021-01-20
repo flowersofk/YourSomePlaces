@@ -26,8 +26,6 @@ class MainActivity : AppCompatActivity() {
         initUI()
         initVM()
 
-        var map = HashMap<String, String>()
-//        var set = map.keySet()
     }
 
     private fun initUI() {
@@ -44,13 +42,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun initVM() {
 
-        var test = 123 // develop branch
-        
-        test.let{
-            var result = it.plus(3)
-            Log.i("test", "result : " + result)
-        }
-
         ViewModelProvider(this).get(PlaceViewModel::class.java).requestPlaceList()
 
     }
@@ -65,6 +56,5 @@ class MainActivity : AppCompatActivity() {
             fragment.onActivityResult(requestCode, resultCode, data)
         }
     }
-
 
 }
