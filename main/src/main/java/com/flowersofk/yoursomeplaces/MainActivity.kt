@@ -21,16 +21,6 @@ class MainActivity : AppCompatActivity() {
 
     private var test = "pull request"; // this line for first pull request
 
-    private var main = "이것은 develop에 commit 예정"
-    private var main_2 = "이것은 develop에 commit 예정_2"
-    private var rebase = "이것은 rebase에서 commit했습니다."
-
-    private var clean = "Clean Service feature branch"
-    private var login = "login security feature branch"
-    private var ignore = "ingnore test"
-
-    private var rebase_test_1 = "rebase_test_1"
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
