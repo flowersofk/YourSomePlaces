@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var placeViewModel: PlaceViewModel
     
-    private var new_function_test_3 = "new_function_test_3"
+    private var new_function_test_4 = "new_function_test_4"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
