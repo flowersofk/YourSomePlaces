@@ -18,8 +18,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private lateinit var placeViewModel: PlaceViewModel
-
-    private var new_function_test_1 = "new_function_test_1"
+    
     private var new_function_test_2 = "new_function_test_2"
 
     override fun onCreate(savedInstanceState: Bundle?) {
