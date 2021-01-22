@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var placeViewModel: PlaceViewModel
     
-    private var new_function_test_4 = "new_function_test_4"
+    private var sourcetree_pr_test = "sourcetree_pr_test"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
