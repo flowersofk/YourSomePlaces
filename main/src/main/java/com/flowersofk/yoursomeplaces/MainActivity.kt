@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var placeViewModel: PlaceViewModel
     
-    private var test = "service_14_commit_1"
+    private var test = "service_15_commit_6"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
